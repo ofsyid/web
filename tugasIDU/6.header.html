@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header>INI HALAMAN BAGIAN ATAS</header>
+
+  <main>
+    <nav>
+      <h3>Menu</h3>
+      <ul>
+        <li><a href="#pendahuluan" onclick="tampilkan('pendahuluan')">Pendahuluan</a></li>
+        <li><a href="#pembahasan" onclick="tampilkan('pembahasan')">Pembahasan</a></li>
+        <li><a href="#kesimpulan" onclick="tampilkan('kesimpulan')">Kesimpulan</a></li>
+      </ul>
+      <hr>
+      <a href="#" onclick="tampilkan('beranda')">Kembali ke Halaman Awal</a>
+    </nav>
+
+    <iframe id="frameIsi" srcdoc="
+      <h2 style='text-align:center;'>Selamat Datang</h2>
+      <p style='text-align:center;'>Silakan pilih menu di sebelah kiri untuk melihat konten.</p>
+    "></iframe>
+  </main>
+</body>
+</html>

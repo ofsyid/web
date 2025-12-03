@@ -1,0 +1,105 @@
+#ur_per3 {
+white-space: nowrap;
+border-right: 2px solid black;
+overflow: hidden;
+display: inline-block;
+animation: ketik 3s steps(30) 1s infinite;
+color: lime
+}
+#ur_per3-2 {
+white-space: nowrap;
+border-right: 2px solid black;
+overflow: hidden;
+display: inline-block;
+animation: ketik2 3s steps(30) 1s infinite;
+color: tomato;
+}
+#ur_per3-3 {
+white-space: nowrap;
+border-right: 2px solid black;
+overflow: hidden;
+display: inline-block;
+animation: ketik2 3s steps(30) 1s infinite;
+color: magenta;
+}
+
+
+@keyframes ketik {
+    from {
+        width: 0;
+    } to {
+        width: 5%;
+    }
+}
+@keyframes ketik2 {
+    from {
+        width: 0;
+    } to {
+        width: 7%;
+    }
+}
+@keyframes ketik3 {
+    from {
+        width: 0;
+    } to {
+        width: 6%;
+    }
+}
+
+table, th{
+    border-bottom: 1px solid black;
+    
+}
+
+#col4{
+    font-weight: bold;
+}
+
+#tab_per5{
+    background-color: red;
+}
+
+ header {
+      background-color: red;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    main {
+      display: flex;
+      height: calc(100vh - 80px);
+    }
+    nav {
+      width: 25%;
+      background-color: #f1f1f1;
+      padding: 15px;
+      box-sizing: border-box;
+      border-right: 1px solid #ccc;
+    }
+    nav h3 {
+      margin-top: 0;
+    }
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    nav ul li {
+      margin: 8px 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: blue;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    iframe {
+      width: 75%;
+      height: 100%;
+      border: none;
+    }
+
+
+
